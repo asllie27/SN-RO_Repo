@@ -381,15 +381,17 @@ WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_Ad
 
 WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_VoidYes'))
 
+//WebUI.setText(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Inception_Date)
+//
+//WebUI.sendKeys(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Keys.chord(Keys.ARROW_RIGHT, Keys.ARROW_RIGHT, '2021'))
+//
+//WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_Set'))
+
 //END ADDITIONAL PREMIUMS
 //END Premiums
 WebUI.click(findTestObject('00Menus/menu_Policy'))
 
 WebUI.click(findTestObject('00Menus/subMenu_Issue Policy'))
-
-//WebUI.waitForElementPresent(findTestObject('Auto Liability/Pop-up screen/button_Auto Liability Issue Without Payment'), GlobalVariable.WaitElem)
-
-//WebUI.click(findTestObject('Auto Liability/Pop-up screen/button_Auto Liability Issue Without Payment'))
 
 WebUI.waitForElementPresent(findTestObject('Auto Liability/Pop-up screen/button_Auto Liability OK'), GlobalVariable.WaitElem)
 
@@ -635,6 +637,12 @@ WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_Ad
 
 WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_VoidYes'))
 
+//WebUI.setText(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Inception_Date)
+//
+//WebUI.sendKeys(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Keys.chord(Keys.ARROW_RIGHT, Keys.ARROW_RIGHT, '2021'))
+//
+//WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_Set'))
+
 //END ADDITIONAL PREMIUMS
 //END Premiums
 WebUI.waitForElementPresent(findTestObject('00Menus/menu_Policy'), GlobalVariable.WaitElem)
@@ -642,10 +650,6 @@ WebUI.waitForElementPresent(findTestObject('00Menus/menu_Policy'), GlobalVariabl
 WebUI.click(findTestObject('00Menus/menu_Policy'))
 
 WebUI.click(findTestObject('00Menus/subMenu_Issue Policy'))
-
-//WebUI.waitForElementPresent(findTestObject('Auto Liability/Pop-up screen/button_Auto Liability Issue Without Payment'), GlobalVariable.WaitElem)
-
-//WebUI.click(findTestObject('Auto Liability/Pop-up screen/button_Auto Liability Issue Without Payment'))
 
 WebUI.waitForElementPresent(findTestObject('Auto Liability/Pop-up screen/button_Auto Liability OK'), GlobalVariable.WaitElem)
 
