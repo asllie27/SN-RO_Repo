@@ -225,7 +225,7 @@ WebUI.setText(findTestObject('Auto Liability/07Finance/02Non Premium/input_Non-P
 
 WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Submit'))
 
-WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Add Non-Premium'))
+/*WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Add Non-Premium'))
 
 WebUI.selectOptionByValue(findTestObject('Auto Liability/07Finance/02Non Premium/select_Non-Premium Type'), '5', false)
 
@@ -240,7 +240,7 @@ WebUI.selectOptionByValue(findTestObject('Auto Liability/07Finance/02Non Premium
 WebUI.setText(findTestObject('Auto Liability/07Finance/02Non Premium/input_Non-Premium and Premium Amount'), Installment_Fee)
 
 WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Submit'))
-
+*/
 WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Add Non-Premium'))
 
 WebUI.selectOptionByValue(findTestObject('Auto Liability/07Finance/02Non Premium/select_Non-Premium Type'), '7', false)
@@ -378,6 +378,12 @@ WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_Ad
 
 WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_VoidYes'))
 
+//WebUI.setText(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Inception_Date)
+//
+//WebUI.sendKeys(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Keys.chord(Keys.ARROW_RIGHT, Keys.ARROW_RIGHT, '2021'))
+//
+//WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_Set'))
+
 //END ADDITIONAL PREMIUMS
 //END Premiums
 WebUI.click(findTestObject('00Menus/menu_Policy'))
@@ -478,7 +484,7 @@ WebUI.selectOptionByValue(findTestObject('Auto Liability/07Finance/02Non Premium
 WebUI.setText(findTestObject('Auto Liability/07Finance/02Non Premium/input_Non-Premium and Premium Amount'), APD_Inspection_Fee)
 
 WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Submit'))
-
+/*
 WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Add Non-Premium'))
 
 WebUI.selectOptionByValue(findTestObject('Auto Liability/07Finance/02Non Premium/select_Non-Premium Type'), '5', false)
@@ -494,7 +500,7 @@ WebUI.selectOptionByValue(findTestObject('Auto Liability/07Finance/02Non Premium
 WebUI.setText(findTestObject('Auto Liability/07Finance/02Non Premium/input_Non-Premium and Premium Amount'), APD_Installment_Fee)
 
 WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Submit'))
-
+*/
 WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Add Non-Premium'))
 
 WebUI.selectOptionByValue(findTestObject('Auto Liability/07Finance/02Non Premium/select_Non-Premium Type'), '7', false)
@@ -630,6 +636,12 @@ WebUI.click(findTestObject('Auto Liability/07Finance/02Non Premium/button_Submit
 WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_AddPremiumVoid_item3'))
 
 WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_VoidYes'))
+
+//WebUI.setText(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Inception_Date)
+//
+//WebUI.sendKeys(findTestObject('Auto Liability/07Finance/03Additional Premium/txt_RemoveDate'), Keys.chord(Keys.ARROW_RIGHT, Keys.ARROW_RIGHT, '2021'))
+//
+//WebUI.click(findTestObject('Auto Liability/07Finance/03Additional Premium/btn_Set'))
 
 //END ADDITIONAL PREMIUMS
 //END Premiums
